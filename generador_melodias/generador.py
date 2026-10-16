@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import io
 import math
@@ -17,6 +18,16 @@ MATRIZ = (
     (0.10, 0.15, 0.20, 0.10, 0.25, 0.10, 0.10),  # LA
     (0.50, 0.05, 0.10, 0.05, 0.20, 0.05, 0.05),  # SI
 )
+# Interstellar: LA-MI, SI-MI, DO-MI, RE-MI
+NOTAS_INTERSTELLAR = ("LA", "SI", "DO", "RE", "MI")
+FRECUENCIAS_INTERSTELLAR = (440.00, 493.88, 523.25, 587.33, 659.25)
+MATRIZ_INTERSTELLAR = (
+    (0.05, 0.05, 0.05, 0.05, 0.80),  # LA -> MI
+    (0.05, 0.05, 0.05, 0.05, 0.80),  # SI -> MI
+    (0.05, 0.05, 0.05, 0.05, 0.80),  # DO -> MI
+    (0.05, 0.05, 0.05, 0.05, 0.80),  # RE -> MI
+    (0.32, 0.26, 0.22, 0.18, 0.02),  # MI -> LA, SI, DO, RE o MI
+)
 TASA_MUESTREO = 44100
 
 
@@ -30,7 +41,6 @@ def sintetizar_tono(frecuencia, duracion):
     for i in range(n):
         t = i / TASA_MUESTREO
         envolvente = min(1.0, i / rampa, (n - i - 1) / rampa)
-        # Timbre sencillo con tres armónicos, sin exceder la amplitud máxima.
         onda = (0.78 * math.sin(2 * math.pi * frecuencia * t)
                 + 0.17 * math.sin(4 * math.pi * frecuencia * t)
                 + 0.05 * math.sin(6 * math.pi * frecuencia * t))
@@ -62,25 +72,36 @@ def reproducir(audio_pcm):
         except (ImportError, RuntimeError, OSError):
             return False
 
-def generar(transiciones, duracion, semilla, archivo, reproducir_ahora):
+
+def generar(transiciones, duracion, semilla, archivo, reproducir_ahora,
+            modelo="mayor"):
     if transiciones < 1 or duracion <= 0:
         raise ValueError("Se necesitan transiciones >= 1 y duración > 0.")
-    if any(len(fila) != len(NOTAS) or
+    if modelo == "mayor":
+        notas, frecuencias, matriz = NOTAS, FRECUENCIAS, MATRIZ
+        nota_inicial = "DO4"
+    elif modelo == "interestelar":
+        notas, frecuencias, matriz = NOTAS_INTERSTELLAR, FRECUENCIAS_INTERSTELLAR, MATRIZ_INTERSTELLAR
+        nota_inicial = "LA4"
+    else:
+        raise ValueError("Modelo desconocido: " + modelo)
+    if any(len(fila) != len(notas) or
            any(p < 0 for p in fila) or
            not math.isclose(sum(fila), 1.0, abs_tol=1e-9)
-           for fila in MATRIZ):
+           for fila in matriz):
         raise ValueError("La matriz de transición no es válida.")
 
     azar = random.Random(semilla)
-    estado = 0  # DO4
+    estado = 0  # DO4 en mayor; LA4 en interestelar
     fragmentos = []
     hubo_audio = False
-    print(f"Estado inicial: {NOTAS[estado]}4. Transiciones: {transiciones}")
+    print(f"Modelo: {modelo}. Estado inicial: {nota_inicial}. "
+          f"Transiciones: {transiciones}")
     for paso in range(1, transiciones + 1):
-        siguiente = azar.choices(range(len(NOTAS)), weights=MATRIZ[estado], k=1)[0]
-        frecuencia = FRECUENCIAS[siguiente]
-        print(f"{paso:02d}: {NOTAS[estado]:3s} -> {NOTAS[siguiente]:3s} "
-              f"| P={MATRIZ[estado][siguiente]:.2f} | {frecuencia:.2f} Hz")
+        siguiente = azar.choices(range(len(notas)), weights=matriz[estado], k=1)[0]
+        frecuencia = frecuencias[siguiente]
+        print(f"{paso:02d}: {notas[estado]:3s} -> {notas[siguiente]:3s} "
+              f"| P={matriz[estado][siguiente]:.2f} | {frecuencia:.2f} Hz")
         tono = sintetizar_tono(frecuencia, duracion)
         fragmentos.append(tono)
         if reproducir_ahora:
@@ -107,6 +128,8 @@ if __name__ == "__main__":
     parser.add_argument("--archivo", default="melodia_markov.wav")
     parser.add_argument("--sin-reproducir", action="store_true",
                         help="Solo guardar el WAV; útil en equipos sin salida de audio")
+    parser.add_argument("--modelo", choices=("mayor", "interestelar"),
+                        default="mayor", help="Conjunto de notas y matriz")
     args = parser.parse_args()
     generar(args.transiciones, args.duracion, args.semilla,
-            args.archivo, not args.sin_reproducir)
+            args.archivo, not args.sin_reproducir, args.modelo)
