@@ -1,0 +1,301 @@
+id,ciudad,clase_real,probabilidad_clase_1,prediccion,correcta,conjunto
+1,"Guadalajara, Mexico",0,0.055695846385041714,0,1,entrenamiento
+2,"Guadalajara, Mexico",0,0.05622818433627028,0,1,entrenamiento
+3,"Guadalajara, Mexico",0,0.0556910456243077,0,1,prueba
+4,"Guadalajara, Mexico",0,0.05634202187502842,0,1,prueba
+5,"Guadalajara, Mexico",0,0.0558381768440446,0,1,entrenamiento
+6,"Guadalajara, Mexico",0,0.05626890603523955,0,1,entrenamiento
+7,"Guadalajara, Mexico",0,0.05620919660308023,0,1,prueba
+8,"Guadalajara, Mexico",0,0.056446079756826875,0,1,entrenamiento
+9,"Guadalajara, Mexico",0,0.05604195423071765,0,1,entrenamiento
+10,"Guadalajara, Mexico",0,0.056273030762579,0,1,prueba
+11,"Guadalajara, Mexico",0,0.05607602241050264,0,1,prueba
+12,"Guadalajara, Mexico",0,0.05597459911372173,0,1,entrenamiento
+13,"Guadalajara, Mexico",0,0.055911580507823105,0,1,entrenamiento
+14,"Guadalajara, Mexico",0,0.05584294775854055,0,1,entrenamiento
+15,"Guadalajara, Mexico",0,0.05616601893356143,0,1,entrenamiento
+16,"Guadalajara, Mexico",0,0.0561952062718253,0,1,entrenamiento
+17,"Guadalajara, Mexico",0,0.05604817914888305,0,1,entrenamiento
+18,"Guadalajara, Mexico",0,0.05602484144636897,0,1,entrenamiento
+19,"Guadalajara, Mexico",0,0.05612555328308034,0,1,entrenamiento
+20,"Guadalajara, Mexico",0,0.05621667179258212,0,1,entrenamiento
+21,"Guadalajara, Mexico",0,0.056322538109098604,0,1,entrenamiento
+22,"Guadalajara, Mexico",0,0.05622322067472328,0,1,entrenamiento
+23,"Guadalajara, Mexico",0,0.056060899044547224,0,1,entrenamiento
+24,"Guadalajara, Mexico",0,0.056146035526772116,0,1,entrenamiento
+25,"Guadalajara, Mexico",0,0.05606562445460799,0,1,entrenamiento
+26,"Guadalajara, Mexico",0,0.05610296604220739,0,1,entrenamiento
+27,"Guadalajara, Mexico",0,0.05629488662395471,0,1,prueba
+28,"Guadalajara, Mexico",0,0.05633216947444723,0,1,entrenamiento
+29,"Guadalajara, Mexico",0,0.05578224977942373,0,1,entrenamiento
+30,"Guadalajara, Mexico",0,0.056021949775016934,0,1,entrenamiento
+31,"Guadalajara, Mexico",0,0.0562972190480228,0,1,entrenamiento
+32,"Guadalajara, Mexico",0,0.05637260365902668,0,1,entrenamiento
+33,"Guadalajara, Mexico",0,0.05643837821065072,0,1,entrenamiento
+34,"Guadalajara, Mexico",0,0.05621501281502364,0,1,prueba
+35,"Guadalajara, Mexico",0,0.05613493910511367,0,1,prueba
+36,"Guadalajara, Mexico",0,0.056298697085437506,0,1,entrenamiento
+37,"Guadalajara, Mexico",0,0.05584397049872707,0,1,entrenamiento
+38,"Guadalajara, Mexico",0,0.05632637759952582,0,1,entrenamiento
+39,"Guadalajara, Mexico",0,0.05575774403303747,0,1,prueba
+40,"Guadalajara, Mexico",0,0.05570354453027716,0,1,entrenamiento
+41,"Guadalajara, Mexico",0,0.05596083405068572,0,1,entrenamiento
+42,"Guadalajara, Mexico",0,0.05623807517932922,0,1,entrenamiento
+43,"Guadalajara, Mexico",0,0.05578651111685858,0,1,prueba
+44,"Guadalajara, Mexico",0,0.05639935464737419,0,1,entrenamiento
+45,"Guadalajara, Mexico",0,0.05616887698247897,0,1,entrenamiento
+46,"Guadalajara, Mexico",0,0.05621832142550477,0,1,entrenamiento
+47,"Guadalajara, Mexico",0,0.05595194822885092,0,1,entrenamiento
+48,"Guadalajara, Mexico",0,0.05599520499948444,0,1,entrenamiento
+49,"Guadalajara, Mexico",0,0.05605342536635827,0,1,entrenamiento
+50,"Guadalajara, Mexico",0,0.056134183388031306,0,1,entrenamiento
+51,"Guadalajara, Mexico",0,0.056081417954559315,0,1,entrenamiento
+52,"Guadalajara, Mexico",0,0.05609742409009002,0,1,entrenamiento
+53,"Guadalajara, Mexico",0,0.05635600972695917,0,1,entrenamiento
+54,"Guadalajara, Mexico",0,0.05597087588535549,0,1,prueba
+55,"Guadalajara, Mexico",0,0.056185219999719226,0,1,entrenamiento
+56,"Guadalajara, Mexico",0,0.056031722592313475,0,1,entrenamiento
+57,"Guadalajara, Mexico",0,0.05584920554169041,0,1,entrenamiento
+58,"Guadalajara, Mexico",0,0.05575317284698652,0,1,entrenamiento
+59,"Guadalajara, Mexico",0,0.05622281933249737,0,1,entrenamiento
+60,"Guadalajara, Mexico",0,0.05639362651033618,0,1,entrenamiento
+61,"Guadalajara, Mexico",0,0.05611543162292924,0,1,entrenamiento
+62,"Guadalajara, Mexico",0,0.05626547573404817,0,1,entrenamiento
+63,"Guadalajara, Mexico",0,0.05649553594452439,0,1,prueba
+64,"Guadalajara, Mexico",0,0.056104859734274946,0,1,entrenamiento
+65,"Guadalajara, Mexico",0,0.05637137150604067,0,1,entrenamiento
+66,"Guadalajara, Mexico",0,0.05584982547551751,0,1,entrenamiento
+67,"Guadalajara, Mexico",0,0.05624425550188775,0,1,entrenamiento
+68,"Guadalajara, Mexico",0,0.056289487505978036,0,1,prueba
+69,"Guadalajara, Mexico",0,0.05594535224682091,0,1,prueba
+70,"Guadalajara, Mexico",0,0.05585929090654847,0,1,entrenamiento
+71,"Guadalajara, Mexico",0,0.05583751437801764,0,1,entrenamiento
+72,"Guadalajara, Mexico",0,0.05633254001914053,0,1,entrenamiento
+73,"Guadalajara, Mexico",0,0.056139972967473493,0,1,entrenamiento
+74,"Guadalajara, Mexico",0,0.0564320452317375,0,1,entrenamiento
+75,"Guadalajara, Mexico",0,0.05595685791052006,0,1,entrenamiento
+76,"Guadalajara, Mexico",0,0.055916875916558806,0,1,entrenamiento
+77,"Guadalajara, Mexico",0,0.056164505585426856,0,1,entrenamiento
+78,"Guadalajara, Mexico",0,0.05646585722384046,0,1,prueba
+79,"Guadalajara, Mexico",0,0.05587957111291891,0,1,entrenamiento
+80,"Guadalajara, Mexico",0,0.0557168487817567,0,1,prueba
+81,"Guadalajara, Mexico",0,0.056351431470932196,0,1,entrenamiento
+82,"Guadalajara, Mexico",0,0.056112360813127767,0,1,prueba
+83,"Guadalajara, Mexico",0,0.055923975361225904,0,1,entrenamiento
+84,"Guadalajara, Mexico",0,0.0561573632101124,0,1,entrenamiento
+85,"Guadalajara, Mexico",0,0.05616283948901936,0,1,entrenamiento
+86,"Guadalajara, Mexico",0,0.056204688195404924,0,1,entrenamiento
+87,"Guadalajara, Mexico",0,0.05587885661019135,0,1,entrenamiento
+88,"Guadalajara, Mexico",0,0.05635629386051327,0,1,entrenamiento
+89,"Guadalajara, Mexico",0,0.05610860161264872,0,1,prueba
+90,"Guadalajara, Mexico",0,0.05592550601442754,0,1,entrenamiento
+91,"Guadalajara, Mexico",0,0.05573902571344601,0,1,entrenamiento
+92,"Guadalajara, Mexico",0,0.05615154488670321,0,1,entrenamiento
+93,"Guadalajara, Mexico",0,0.05591139893509969,0,1,entrenamiento
+94,"Guadalajara, Mexico",0,0.05602600515480691,0,1,entrenamiento
+95,"Guadalajara, Mexico",0,0.05597831349285943,0,1,prueba
+96,"Guadalajara, Mexico",0,0.05576485549621909,0,1,prueba
+97,"Guadalajara, Mexico",0,0.05617608110734479,0,1,prueba
+98,"Guadalajara, Mexico",0,0.055821324396826126,0,1,prueba
+99,"Guadalajara, Mexico",0,0.05593201369517178,0,1,prueba
+100,"Guadalajara, Mexico",0,0.05603920449276712,0,1,entrenamiento
+101,"Guadalajara, Mexico",0,0.056397231456110156,0,1,entrenamiento
+102,"Guadalajara, Mexico",0,0.05589593601320539,0,1,prueba
+103,"Guadalajara, Mexico",0,0.056087227596935914,0,1,entrenamiento
+104,"Guadalajara, Mexico",0,0.05626907609132014,0,1,entrenamiento
+105,"Guadalajara, Mexico",0,0.05585079948074824,0,1,entrenamiento
+106,"Guadalajara, Mexico",0,0.05609739074757258,0,1,entrenamiento
+107,"Guadalajara, Mexico",0,0.055774693428015,0,1,entrenamiento
+108,"Guadalajara, Mexico",0,0.05592980212114972,0,1,entrenamiento
+109,"Guadalajara, Mexico",0,0.055939720601459554,0,1,entrenamiento
+110,"Guadalajara, Mexico",0,0.056114855386125956,0,1,entrenamiento
+111,"Guadalajara, Mexico",0,0.05624345023222573,0,1,entrenamiento
+112,"Guadalajara, Mexico",0,0.05638064585610729,0,1,entrenamiento
+113,"Guadalajara, Mexico",0,0.05638763714304494,0,1,entrenamiento
+114,"Guadalajara, Mexico",0,0.05631379438782033,0,1,entrenamiento
+115,"Guadalajara, Mexico",0,0.05634349188430369,0,1,entrenamiento
+116,"Guadalajara, Mexico",0,0.056078510446025194,0,1,entrenamiento
+117,"Guadalajara, Mexico",0,0.056062896286901066,0,1,prueba
+118,"Guadalajara, Mexico",0,0.05576263603476605,0,1,entrenamiento
+119,"Guadalajara, Mexico",0,0.05606663917284969,0,1,entrenamiento
+120,"Guadalajara, Mexico",0,0.05606197540308932,0,1,prueba
+121,"Guadalajara, Mexico",0,0.056116593776863254,0,1,entrenamiento
+122,"Guadalajara, Mexico",0,0.05632741969653897,0,1,entrenamiento
+123,"Guadalajara, Mexico",0,0.056377114134310756,0,1,entrenamiento
+124,"Guadalajara, Mexico",0,0.05613558915562456,0,1,entrenamiento
+125,"Guadalajara, Mexico",0,0.05624327204413399,0,1,entrenamiento
+126,"Guadalajara, Mexico",0,0.05573771483428999,0,1,entrenamiento
+127,"Guadalajara, Mexico",0,0.05586355702725569,0,1,prueba
+128,"Guadalajara, Mexico",0,0.05624957423573517,0,1,entrenamiento
+129,"Guadalajara, Mexico",0,0.05638966674367491,0,1,entrenamiento
+130,"Guadalajara, Mexico",0,0.056033563771308886,0,1,entrenamiento
+131,"Guadalajara, Mexico",0,0.05586504275041774,0,1,entrenamiento
+132,"Guadalajara, Mexico",0,0.05580489014731379,0,1,prueba
+133,"Guadalajara, Mexico",0,0.05639255125447994,0,1,entrenamiento
+134,"Guadalajara, Mexico",0,0.056216505140749294,0,1,entrenamiento
+135,"Guadalajara, Mexico",0,0.05609754397510639,0,1,entrenamiento
+136,"Guadalajara, Mexico",0,0.05631380400091746,0,1,entrenamiento
+137,"Guadalajara, Mexico",0,0.05579281088757848,0,1,prueba
+138,"Guadalajara, Mexico",0,0.05612277082535138,0,1,prueba
+139,"Guadalajara, Mexico",0,0.056047279206163474,0,1,entrenamiento
+140,"Guadalajara, Mexico",0,0.05611613172808112,0,1,entrenamiento
+141,"Guadalajara, Mexico",0,0.05623751770095485,0,1,entrenamiento
+142,"Guadalajara, Mexico",0,0.05620919922952512,0,1,entrenamiento
+143,"Guadalajara, Mexico",0,0.056363627141013554,0,1,entrenamiento
+144,"Guadalajara, Mexico",0,0.05635077064549868,0,1,entrenamiento
+145,"Guadalajara, Mexico",0,0.05587817244482035,0,1,entrenamiento
+146,"Guadalajara, Mexico",0,0.05602200940662291,0,1,entrenamiento
+147,"Guadalajara, Mexico",0,0.05608666592000827,0,1,entrenamiento
+148,"Guadalajara, Mexico",0,0.055981564857067546,0,1,entrenamiento
+149,"Guadalajara, Mexico",0,0.056232439544538555,0,1,entrenamiento
+150,"Guadalajara, Mexico",0,0.056261780255520644,0,1,entrenamiento
+151,"Ámsterdam, Países Bajos",1,0.9667165975013284,1,1,entrenamiento
+152,"Ámsterdam, Países Bajos",1,0.966455982755388,1,1,entrenamiento
+153,"Ámsterdam, Países Bajos",1,0.9665513845489819,1,1,entrenamiento
+154,"Ámsterdam, Países Bajos",1,0.9665535708699567,1,1,entrenamiento
+155,"Ámsterdam, Países Bajos",1,0.9664117706986376,1,1,entrenamiento
+156,"Ámsterdam, Países Bajos",1,0.9663486519796257,1,1,entrenamiento
+157,"Ámsterdam, Países Bajos",1,0.9665111436262566,1,1,entrenamiento
+158,"Ámsterdam, Países Bajos",1,0.9662731229470248,1,1,entrenamiento
+159,"Ámsterdam, Países Bajos",1,0.966308902703066,1,1,entrenamiento
+160,"Ámsterdam, Países Bajos",1,0.9663329755485002,1,1,entrenamiento
+161,"Ámsterdam, Países Bajos",1,0.9665813877757355,1,1,prueba
+162,"Ámsterdam, Países Bajos",1,0.9665637145565777,1,1,entrenamiento
+163,"Ámsterdam, Países Bajos",1,0.9663148446113536,1,1,prueba
+164,"Ámsterdam, Países Bajos",1,0.9665990389384769,1,1,entrenamiento
+165,"Ámsterdam, Países Bajos",1,0.9663921800516209,1,1,entrenamiento
+166,"Ámsterdam, Países Bajos",1,0.9663151658344709,1,1,entrenamiento
+167,"Ámsterdam, Países Bajos",1,0.9664322835406606,1,1,entrenamiento
+168,"Ámsterdam, Países Bajos",1,0.9666575994486584,1,1,entrenamiento
+169,"Ámsterdam, Países Bajos",1,0.9664690602851531,1,1,entrenamiento
+170,"Ámsterdam, Países Bajos",1,0.966374693767303,1,1,entrenamiento
+171,"Ámsterdam, Países Bajos",1,0.9667084727052896,1,1,entrenamiento
+172,"Ámsterdam, Países Bajos",1,0.9663897107863705,1,1,entrenamiento
+173,"Ámsterdam, Países Bajos",1,0.9665491990810228,1,1,entrenamiento
+174,"Ámsterdam, Países Bajos",1,0.9665209895857416,1,1,prueba
+175,"Ámsterdam, Países Bajos",1,0.9665825859215272,1,1,entrenamiento
+176,"Ámsterdam, Países Bajos",1,0.9663555078863345,1,1,entrenamiento
+177,"Ámsterdam, Países Bajos",1,0.9664913814374069,1,1,entrenamiento
+178,"Ámsterdam, Países Bajos",1,0.9664588211997783,1,1,entrenamiento
+179,"Ámsterdam, Países Bajos",1,0.9665293209328302,1,1,entrenamiento
+180,"Ámsterdam, Países Bajos",1,0.9664885094892607,1,1,prueba
+181,"Ámsterdam, Países Bajos",1,0.9663642361418248,1,1,entrenamiento
+182,"Ámsterdam, Países Bajos",1,0.9666546810323959,1,1,entrenamiento
+183,"Ámsterdam, Países Bajos",1,0.9666539667429627,1,1,entrenamiento
+184,"Ámsterdam, Países Bajos",1,0.9663340540141209,1,1,entrenamiento
+185,"Ámsterdam, Países Bajos",1,0.9666331335842655,1,1,entrenamiento
+186,"Ámsterdam, Países Bajos",1,0.9666983468134753,1,1,entrenamiento
+187,"Ámsterdam, Países Bajos",1,0.966451669366624,1,1,prueba
+188,"Ámsterdam, Países Bajos",1,0.9666177548990128,1,1,entrenamiento
+189,"Ámsterdam, Países Bajos",1,0.9665788974451007,1,1,entrenamiento
+190,"Ámsterdam, Países Bajos",1,0.9664049864254212,1,1,prueba
+191,"Ámsterdam, Países Bajos",1,0.9664897711725876,1,1,entrenamiento
+192,"Ámsterdam, Países Bajos",1,0.9664258494637357,1,1,entrenamiento
+193,"Ámsterdam, Países Bajos",1,0.9665659156670323,1,1,entrenamiento
+194,"Ámsterdam, Países Bajos",1,0.9664205785807383,1,1,prueba
+195,"Ámsterdam, Países Bajos",1,0.9663363118898235,1,1,prueba
+196,"Ámsterdam, Países Bajos",1,0.9663508424514634,1,1,entrenamiento
+197,"Ámsterdam, Países Bajos",1,0.9662815877716401,1,1,entrenamiento
+198,"Ámsterdam, Países Bajos",1,0.9664856782040345,1,1,entrenamiento
+199,"Ámsterdam, Países Bajos",1,0.9663865376963043,1,1,entrenamiento
+200,"Ámsterdam, Países Bajos",1,0.9666449863102647,1,1,entrenamiento
+201,"Ámsterdam, Países Bajos",1,0.9666257051461009,1,1,prueba
+202,"Ámsterdam, Países Bajos",1,0.9667047181192262,1,1,entrenamiento
+203,"Ámsterdam, Países Bajos",1,0.966514647106502,1,1,entrenamiento
+204,"Ámsterdam, Países Bajos",1,0.9666443953466074,1,1,entrenamiento
+205,"Ámsterdam, Países Bajos",1,0.9665594984070119,1,1,entrenamiento
+206,"Ámsterdam, Países Bajos",1,0.966343200201218,1,1,prueba
+207,"Ámsterdam, Países Bajos",1,0.9665169807993731,1,1,entrenamiento
+208,"Ámsterdam, Países Bajos",1,0.9664317634049613,1,1,entrenamiento
+209,"Ámsterdam, Países Bajos",1,0.9665570245219953,1,1,entrenamiento
+210,"Ámsterdam, Países Bajos",1,0.9664617781764685,1,1,entrenamiento
+211,"Ámsterdam, Países Bajos",1,0.9665898993616973,1,1,entrenamiento
+212,"Ámsterdam, Países Bajos",1,0.9665354996002751,1,1,prueba
+213,"Ámsterdam, Países Bajos",1,0.9663471773736689,1,1,entrenamiento
+214,"Ámsterdam, Países Bajos",1,0.9664725910230859,1,1,prueba
+215,"Ámsterdam, Países Bajos",1,0.9663036116764875,1,1,entrenamiento
+216,"Ámsterdam, Países Bajos",1,0.9665044046361073,1,1,entrenamiento
+217,"Ámsterdam, Países Bajos",1,0.9662589636646938,1,1,entrenamiento
+218,"Ámsterdam, Países Bajos",1,0.9662549711377879,1,1,entrenamiento
+219,"Ámsterdam, Países Bajos",1,0.9666055478008574,1,1,entrenamiento
+220,"Ámsterdam, Países Bajos",1,0.9664138106887156,1,1,entrenamiento
+221,"Ámsterdam, Países Bajos",1,0.9665809863679136,1,1,entrenamiento
+222,"Ámsterdam, Países Bajos",1,0.9664706999501746,1,1,entrenamiento
+223,"Ámsterdam, Países Bajos",1,0.9665598462768369,1,1,entrenamiento
+224,"Ámsterdam, Países Bajos",1,0.966724843418896,1,1,entrenamiento
+225,"Ámsterdam, Países Bajos",1,0.9664349457080532,1,1,entrenamiento
+226,"Ámsterdam, Países Bajos",1,0.9662855248888892,1,1,entrenamiento
+227,"Ámsterdam, Países Bajos",1,0.9664767746486183,1,1,entrenamiento
+228,"Ámsterdam, Países Bajos",1,0.9667110156103179,1,1,entrenamiento
+229,"Ámsterdam, Países Bajos",1,0.9662983542619819,1,1,entrenamiento
+230,"Ámsterdam, Países Bajos",1,0.9665202548001283,1,1,entrenamiento
+231,"Ámsterdam, Países Bajos",1,0.9663376512914319,1,1,prueba
+232,"Ámsterdam, Países Bajos",1,0.9664075705869639,1,1,entrenamiento
+233,"Ámsterdam, Países Bajos",1,0.966538057003542,1,1,entrenamiento
+234,"Ámsterdam, Países Bajos",1,0.9664444419772712,1,1,prueba
+235,"Ámsterdam, Países Bajos",1,0.9662821405305618,1,1,prueba
+236,"Ámsterdam, Países Bajos",1,0.966522597273553,1,1,entrenamiento
+237,"Ámsterdam, Países Bajos",1,0.9665711374840166,1,1,entrenamiento
+238,"Ámsterdam, Países Bajos",1,0.9662452167058704,1,1,prueba
+239,"Ámsterdam, Países Bajos",1,0.9662597330452185,1,1,prueba
+240,"Ámsterdam, Países Bajos",1,0.9664866025861495,1,1,entrenamiento
+241,"Ámsterdam, Países Bajos",1,0.9664308884611635,1,1,entrenamiento
+242,"Ámsterdam, Países Bajos",1,0.9664876038607052,1,1,entrenamiento
+243,"Ámsterdam, Países Bajos",1,0.9664983159903032,1,1,entrenamiento
+244,"Ámsterdam, Países Bajos",1,0.9666396782535924,1,1,entrenamiento
+245,"Ámsterdam, Países Bajos",1,0.9662889202479209,1,1,entrenamiento
+246,"Ámsterdam, Países Bajos",1,0.9666871582910577,1,1,entrenamiento
+247,"Ámsterdam, Países Bajos",1,0.9663182904627745,1,1,prueba
+248,"Ámsterdam, Países Bajos",1,0.9662650334648851,1,1,prueba
+249,"Ámsterdam, Países Bajos",1,0.9664776771646716,1,1,entrenamiento
+250,"Ámsterdam, Países Bajos",1,0.9665022868874531,1,1,entrenamiento
+251,"Ámsterdam, Países Bajos",1,0.9667058626769849,1,1,entrenamiento
+252,"Ámsterdam, Países Bajos",1,0.9664875956823804,1,1,prueba
+253,"Ámsterdam, Países Bajos",1,0.9666159560265632,1,1,prueba
+254,"Ámsterdam, Países Bajos",1,0.9665816708176149,1,1,prueba
+255,"Ámsterdam, Países Bajos",1,0.9664315111036832,1,1,entrenamiento
+256,"Ámsterdam, Países Bajos",1,0.9665646609701948,1,1,entrenamiento
+257,"Ámsterdam, Países Bajos",1,0.9664535326830433,1,1,prueba
+258,"Ámsterdam, Países Bajos",1,0.9665100605002382,1,1,entrenamiento
+259,"Ámsterdam, Países Bajos",1,0.9663509597293147,1,1,entrenamiento
+260,"Ámsterdam, Países Bajos",1,0.9665558680875076,1,1,prueba
+261,"Ámsterdam, Países Bajos",1,0.9666305974557569,1,1,prueba
+262,"Ámsterdam, Países Bajos",1,0.9665246621693013,1,1,entrenamiento
+263,"Ámsterdam, Países Bajos",1,0.9663902094548265,1,1,entrenamiento
+264,"Ámsterdam, Países Bajos",1,0.966542862659954,1,1,entrenamiento
+265,"Ámsterdam, Países Bajos",1,0.966555571721898,1,1,entrenamiento
+266,"Ámsterdam, Países Bajos",1,0.9665392570695754,1,1,entrenamiento
+267,"Ámsterdam, Países Bajos",1,0.9665790276296484,1,1,entrenamiento
+268,"Ámsterdam, Países Bajos",1,0.9664510387178789,1,1,entrenamiento
+269,"Ámsterdam, Países Bajos",1,0.9664341734829496,1,1,entrenamiento
+270,"Ámsterdam, Países Bajos",1,0.9664025415320631,1,1,entrenamiento
+271,"Ámsterdam, Países Bajos",1,0.9666661823837196,1,1,entrenamiento
+272,"Ámsterdam, Países Bajos",1,0.9666474502181789,1,1,entrenamiento
+273,"Ámsterdam, Países Bajos",1,0.9666515695934078,1,1,entrenamiento
+274,"Ámsterdam, Países Bajos",1,0.9665966622131281,1,1,entrenamiento
+275,"Ámsterdam, Países Bajos",1,0.9662527734738655,1,1,entrenamiento
+276,"Ámsterdam, Países Bajos",1,0.9663943447154465,1,1,entrenamiento
+277,"Ámsterdam, Países Bajos",1,0.966261382379871,1,1,prueba
+278,"Ámsterdam, Países Bajos",1,0.9664838280308764,1,1,prueba
+279,"Ámsterdam, Países Bajos",1,0.9664338359280583,1,1,entrenamiento
+280,"Ámsterdam, Países Bajos",1,0.9662424312574842,1,1,entrenamiento
+281,"Ámsterdam, Países Bajos",1,0.9664072586923881,1,1,entrenamiento
+282,"Ámsterdam, Países Bajos",1,0.9665622708925279,1,1,entrenamiento
+283,"Ámsterdam, Países Bajos",1,0.9665717445130232,1,1,prueba
+284,"Ámsterdam, Países Bajos",1,0.9662573155986723,1,1,entrenamiento
+285,"Ámsterdam, Países Bajos",1,0.9662357927863815,1,1,entrenamiento
+286,"Ámsterdam, Países Bajos",1,0.9662274686333873,1,1,entrenamiento
+287,"Ámsterdam, Países Bajos",1,0.9665011768399245,1,1,entrenamiento
+288,"Ámsterdam, Países Bajos",1,0.9665185107338684,1,1,entrenamiento
+289,"Ámsterdam, Países Bajos",1,0.9666518616362414,1,1,prueba
+290,"Ámsterdam, Países Bajos",1,0.9665630812042111,1,1,entrenamiento
+291,"Ámsterdam, Países Bajos",1,0.9667113566887398,1,1,entrenamiento
+292,"Ámsterdam, Países Bajos",1,0.9664273300841978,1,1,prueba
+293,"Ámsterdam, Países Bajos",1,0.9666197460075177,1,1,entrenamiento
+294,"Ámsterdam, Países Bajos",1,0.9664752541392709,1,1,entrenamiento
+295,"Ámsterdam, Países Bajos",1,0.966546628704661,1,1,entrenamiento
+296,"Ámsterdam, Países Bajos",1,0.9665577844024236,1,1,entrenamiento
+297,"Ámsterdam, Países Bajos",1,0.9664776398844863,1,1,entrenamiento
+298,"Ámsterdam, Países Bajos",1,0.9666364002758029,1,1,entrenamiento
+299,"Ámsterdam, Países Bajos",1,0.9664814234639024,1,1,entrenamiento
+300,"Ámsterdam, Países Bajos",1,0.9666104681362032,1,1,entrenamiento
